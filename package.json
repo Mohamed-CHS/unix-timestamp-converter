@@ -6,12 +6,13 @@
   "icon": "images/timestamp.png",
   "version": "0.1.0",
   "engines": {
-    "vscode": "^1.60.0"
+    "vscode": "^1.75.0"
   },
   "categories": [
     "Other"
   ],
   "main": "./extension.js",
+  "activationEvents": [],
   "contributes": {
     "commands": [
       {
@@ -31,10 +32,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+[github repo url].git"
+    "url": "https://github.com/Mohamed-CHS/unix-timestamp-converter.git"
   },
   "bugs": {},
-  "homepage": "[github repo url]r#readme",
+  "homepage": "https://github.com/Mohamed-CHS/unix-timestamp-converter",
   "keywords": [],
   "author": "Mohamed-CHS",
   "license": "MIT",
