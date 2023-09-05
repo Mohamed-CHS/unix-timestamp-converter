@@ -33,7 +33,7 @@ You can install the UNIX Timestamp Converter extension from the VS Code Marketpl
 ## Contributing
 
 Feel free to fork this repo and run with it. All pull requests are welcome.
-If you encounter any issues or have suggestions for improvements, [open an issue](https://github.com/Mohamed-CHS/unix-timestamp-converter-vscode/issues) on the GitHub repository.
+If you encounter any issues or have suggestions for improvements, [open an issue](https://github.com/Mohamed-CHS/unix-timestamp-converter/issues) on the GitHub repository.
 
 ## License
 
