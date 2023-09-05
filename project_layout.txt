@@ -1,0 +1,15 @@
+--- Folder Layout ---
+[.vscode]
+    └── launch.json
+CHANGELOG.md
+[images]
+    ├── example.JPG
+    └── icon.png
+[node_modules] (...)
+[out]
+    └── extension.js
+package-lock.json
+package.json
+project_layout.txt
+README.md
+sample.json

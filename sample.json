@@ -1,0 +1,105 @@
+{
+  "title": "Find ChatGPT Data",
+  "create_time": 1690964691.8852,
+  "update_time": 1690964725.0,
+  "mapping": {
+    "8137c532-6732-443d-a979-2bfd40146aa9": {
+      "id": "8137c532-6732-443d-a979-2bfd40146aa9",
+      "message": {
+        "id": "8137c532-6732-443d-a979-2bfd40146aa9",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1690964691.885582,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [""]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {},
+        "recipient": "all"
+      },
+      "parent": "aaa16c0d-7459-4fa0-a885-b57555c4c199",
+      "children": ["aaa234ae-cd37-4ae2-af64-ede01b6f3411"]
+    },
+    "aaa16c0d-7459-4fa0-a885-b57555c4c199": {
+      "id": "aaa16c0d-7459-4fa0-a885-b57555c4c199",
+      "message": null,
+      "parent": null,
+      "children": ["8137c532-6732-443d-a979-2bfd40146aa9"]
+    },
+    "aaa234ae-cd37-4ae2-af64-ede01b6f3411": {
+      "id": "aaa234ae-cd37-4ae2-af64-ede01b6f3411",
+      "message": {
+        "id": "aaa234ae-cd37-4ae2-af64-ede01b6f3411",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1690964691.902594,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I just installed a Google Chrome extension, here's its overview:\"\nOverview\n\ue30a\nCompatible with your device\nSearch your ChatGPT conversation history\nIntroducing the new and improved ChatGPT Conversation History Search extension! Designed to enhance your experience with OpenAI's ChatGPT, this extension brings you a robust suite of tools to manage your conversation history. With an easy-to-use interface and seamless integration, it's never been simpler to find, revisit, and organize your past interactions.\n\nKey Features:\n\n\ud83d\udd0d Advanced Search: Find the information you need quickly and easily, searching not only conversation titles but also any keyword or information within any conversation. \n\n\ud83d\udccc Effortless Navigation: Improved navigation lets you effortlessly find and jump to each keyword within each conversation.\n\n\u270f\ufe0f\ud83d\uddd1\ufe0f Edit and Delete Conversations: Streamline your experience by editing or deleting conversations directly from within the extension.\n\n\ud83d\udc96 Favorites Management: Customize your experience by adding or removing conversations to/from your favorites for quick access to your most valuable interactions.\n\n\u23f2\ufe0f Time-Based Filters: Precisely filter your search results by update time (all, today, yesterday, last week, last month, last 7 days, last 30 days) for more relevant results.\n\n\ud83d\udd0d Integrated Search Experience: Use search capabilities in conjunction with filters and favorites for a customized and efficient search experience.\n\n\ud83d\udcdd Conversation Summarization: Use your OpenAI API key to generate a short summary for each conversation for a quick overview of the content.\n\nSeamless Integration: This extension integrates smoothly with the ChatGPT platform, enhancing your experience without any interruptions.\n\nUser-friendly Interface: Navigate through your ChatGPT conversation history with ease, thanks to our intuitive design.\n\nData Privacy and Security: Rest assured knowing that your search queries and conversation history remain secure. All information is processed and managed locally on your machine, and no personal data is stored remotely.\n\nRegular Updates and Support: Stay up to date with the latest features and improvements, and enjoy the compatibility with the latest ChatGPT platform updates. Need assistance? Reach out to us at chat.gpt.conversation.search@gmail.com.\n\nJoin Our Community: Connect with fellow ChatGPT extension users, get support, share your experiences, and stay updated on the latest features and improvements. Join our Discord Server: https://discord.gg/NKcpwYrz8W\n\nGet the most out of your ChatGPT experience with the updated ChatGPT Conversation History Search extension. Discover the convenience of managing your valuable interactions and never lose track of an important conversation again. Install today!\n\"\n\nWhen I first activated the extension, it started downloading something and said it's the chatgpt conversation data it's storing locally on my computer. Any idea where I can find this data?\nI located the extension's folder on my pc, here's the list of its contents:\n```\nC:\\Users\\Mohamed.CheikhSidiya\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Extensions\\ppnfnillfndkellpbphafglnljdefjph\\2.5_0>dir /B\nassets\nbackground.js\nbackground.js.LICENSE.txt\ncreateAccount.css\ncreateAccount.js\nfirebase\nhighlightKeyword.css\nhighlightKeyword.js\nicons\nlogin\nlogin.css\nlogin.js\nmanifest.json\npurchase\npurchase.css\npurchase.js\npurchase.js.LICENSE.txt\nsearch\nsearch.css\nsearch.js\nsearch.js.LICENSE.txt\n_metadata\n```\nWhere do I look to find the conversation data?\nAsk further clarification questions if needed. Take it step by step."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1.0,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "8137c532-6732-443d-a979-2bfd40146aa9",
+      "children": ["a71f750e-ec52-4577-92d4-21049e48f2d4"]
+    },
+    "a71f750e-ec52-4577-92d4-21049e48f2d4": {
+      "id": "a71f750e-ec52-4577-92d4-21049e48f2d4",
+      "message": {
+        "id": "a71f750e-ec52-4577-92d4-21049e48f2d4",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1690964724.33774,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Sure, let's take this step by step!\n\nThe fact that the extension says it stores the conversation data locally on your computer does not necessarily mean it will be easily accessible as plain text files or in a standard format. The data might be encrypted, obfuscated, or stored in a special format to ensure privacy and security, as mentioned in the overview.\n\nThat said, here are some steps you could take to possibly locate the conversation data:\n\n1. **Inspect the JavaScript Files**: The JavaScript files (e.g., `background.js`, `search.js`) may contain code that handles the storage and retrieval of the conversation data. You might find clues in these files as to where and how the data is stored.\n\n2. **Check Browser Storage**: Many Chrome extensions utilize browser storage mechanisms such as IndexedDB, Local Storage, or Cookies. These storage mechanisms are not typically accessible directly from the file system, but you can inspect them using Developer Tools in Chrome:\n   - Open Chrome.\n   - Click on the three vertical dots in the upper right-hand corner.\n   - Select \"More tools\" > \"Developer tools.\"\n   - In the Developer Tools window, go to the \"Application\" tab.\n   - Here, you can inspect IndexedDB, Local Storage, and Cookies to see if the data is stored there.\n\n3. **Check for Database Files**: The conversation data might be stored in a database file within the extension's folder or a related path. Look for any file with extensions such as `.db`, `.sqlite`, or similar.\n\n4. **Consult Extension Documentation or Support**: If the data is stored in a way that's not easily accessible, the best course of action might be to consult the documentation provided by the extension developer or reach out to their support email (chat.gpt.conversation.search@gmail.com, as mentioned in the overview).\n\nPlease remember that the conversation data may contain sensitive information. If you have any specific purpose in mind for accessing this data, make sure that it aligns with the terms of service of the extension and OpenAI, as well as any applicable laws or regulations.\n\nIf you need further assistance or have specific questions about any of these steps, feel free to ask!"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1.0,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop": "<|fim_suffix|>"
+          },
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa234ae-cd37-4ae2-af64-ede01b6f3411",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "a71f750e-ec52-4577-92d4-21049e48f2d4",
+  "plugin_ids": null,
+  "id": "3e6a117d-40c9-4226-8b49-f6d014112616"
+}

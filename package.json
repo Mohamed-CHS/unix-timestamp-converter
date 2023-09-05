@@ -1,0 +1,60 @@
+{
+  "name": "vscode-timestamp-extension",
+  "displayName": "Timestamp Converter",
+  "description": "Convert epoch to human-readable date.",
+  "publisher": "medchs",
+  "icon": "images/icon.png",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.convertCurrentTimeToTimestamp",
+        "title": "Convert Current Time to Timestamp"
+      },
+      {
+        "command": "extension.toggleTimestampConverter",
+        "title": "Toggle Timestamp Converter"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "lint": "eslint src --ext ts",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/glob": "^7.1.1",
+    "@types/mocha": "^7.0.1",
+    "@types/node": "^12.11.7",
+    "@types/vscode": "^1.43.0",
+    "@typescript-eslint/eslint-plugin": "^2.18.0",
+    "@typescript-eslint/parser": "^2.18.0",
+    "eslint": "^6.8.0",
+    "glob": "^7.1.6",
+    "mocha": "^10.2.0",
+    "typescript": "^3.7.5",
+    "vscode-test": "^1.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+[github repo url].git"
+  },
+  "bugs": {},
+  "homepage": "[github repo url]r#readme",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vscode": "^1.1.34"
+  }
+}
