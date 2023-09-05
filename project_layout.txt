@@ -1,13 +1,13 @@
 --- Folder Layout ---
+[.git] (...)
+.gitignore
 [.vscode]
     └── launch.json
-CHANGELOG.md
+extension.js
 [images]
-    ├── example.JPG
-    └── icon.png
+    └── timestamp.png
+LICENSE
 [node_modules] (...)
-[out]
-    └── extension.js
 package-lock.json
 package.json
 project_layout.txt
