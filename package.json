@@ -16,11 +16,11 @@
     "commands": [
       {
         "command": "extension.convertCurrentTimeToTimestamp",
-        "title": "Get Current Timestamp"
+        "title": "Get Current UNIX Timestamp"
       },
       {
         "command": "extension.toggleTimestampConverter",
-        "title": "Convert Timestamp"
+        "title": "Convert UNIX Timestamp"
       }
     ]
   },
