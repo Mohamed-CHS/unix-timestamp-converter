@@ -87,9 +87,7 @@ function activate(context) {
   );
 }
 
-exports.activate = activate;
-
-// Deactivation function (no implementation needed)
 function deactivate() {}
 
+exports.activate = activate;
 exports.deactivate = deactivate;
