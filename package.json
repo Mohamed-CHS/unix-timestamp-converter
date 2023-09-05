@@ -26,7 +26,8 @@
     ]
   },
   "scripts": {
-    "vscode:prepublish": "npm run build"
+    "vscode:prepublish": "npm run build",
+    "build": "echo \"No build steps required.\""
   },
   "repository": {
     "type": "git",
