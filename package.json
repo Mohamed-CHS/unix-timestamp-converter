@@ -26,9 +26,7 @@
     ]
   },
   "scripts": {
-    "vscode:prepublish": "npm run build",
-    "build": "tsc -p ./",
-    "watch": "tsc -watch -p ./"
+    "vscode:prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
